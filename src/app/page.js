@@ -1,8 +1,8 @@
-
+'use client'
 
 export default function inicio(){
 
   return (
-      <div>Inicio</div>
+    <div></div>
   )  
 };
