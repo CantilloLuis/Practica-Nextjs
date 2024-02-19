@@ -4,7 +4,6 @@ import { prisma } from '@/libs/prisma'
 export async function GET(){
 
    const cars = await prisma.cars.findMany()
-    console.log(cars)
     return NextResponse.json(cars)
 }
 
@@ -22,3 +21,4 @@ export async function POST(request){
     })
     return NextResponse.json(cars)
  }
+
